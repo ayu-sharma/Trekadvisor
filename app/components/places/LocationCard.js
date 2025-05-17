@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Star, MapPin, Clock, Phone, ExternalLink } from 'lucide-react';
 import Button from '../ui/Button';
 import DestinationModal from '../destinations/DestinationModal';
@@ -8,6 +8,11 @@ import DestinationModal from '../destinations/DestinationModal';
 export default function LocationCard({ location, isHovered, onHover, onLeave, getCategoryIcon }) {
   const [showModal, setShowModal] = useState(false);
   const [savedDestinations, setSavedDestinations] = useState([]);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const {
     id,
@@ -47,6 +52,28 @@ export default function LocationCard({ location, isHovered, onHover, onLeave, ge
     }
     return stars;
   };
+
+  // Return a simplified version until client-side hydration is complete
+  if (!isMounted) {
+    return (
+      <div className="bg-white rounded-xl overflow-hidden shadow-lg border border-green-100 flex flex-col h-[550px]">
+        <div className="relative">
+          <div className="w-full h-56 bg-gray-200 animate-pulse"></div>
+        </div>
+        <div className="p-6 flex flex-col flex-grow">
+          <div className="h-7 bg-gray-200 rounded animate-pulse mb-3"></div>
+          <div className="h-10 bg-gray-200 rounded animate-pulse mb-4"></div>
+          <div className="space-y-2">
+            <div className="h-4 bg-gray-200 rounded animate-pulse"></div>
+            <div className="h-4 bg-gray-200 rounded animate-pulse"></div>
+          </div>
+          <div className="mt-auto pt-4 border-t border-green-100">
+            <div className="h-10 bg-gray-200 rounded animate-pulse"></div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>

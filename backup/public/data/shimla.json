@@ -1,0 +1,98 @@
+{
+  "name": "Shimla",
+  "description": "Shimla is the capital city of Himachal Pradesh and one of India's most popular hill stations. Known for its colonial architecture, scenic beauty, and pleasant climate, it offers a perfect blend of history, culture, and natural beauty.",
+  "coverImage": "/images/districts/shimla-cover.jpg",
+  "summary": "The Queen of Hill Stations",
+  "locations": [
+    {
+      "id": "shimla-ridge",
+      "name": "The Ridge",
+      "description": "The Ridge is a large open space in the heart of Shimla, offering panoramic views of the surrounding mountains. It's a popular spot for locals and tourists alike.",
+      "image": "/images/locations/shimla-ridge.jpg",
+      "category": "Landmark",
+      "rating": 4.7,
+      "address": "The Ridge, Shimla, Himachal Pradesh",
+      "hours": "Open 24/7",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June and September to November - pleasant weather for sightseeing",
+        "currency": "Indian Rupee (INR) - ATMs available nearby",
+        "language": "Hindi and English widely spoken",
+        "transportation": "Walking distance from Mall Road, easily accessible by local transport",
+        "accommodation": "Multiple hotels and guesthouses available in the vicinity"
+      }
+    },
+    {
+      "id": "shimla-mall-road",
+      "name": "Mall Road",
+      "description": "Mall Road is the main shopping street of Shimla, lined with shops, restaurants, and colonial buildings. It's a pedestrian-only zone and a great place to experience the local culture.",
+      "image": "/images/locations/shimla-mall-road.jpg",
+      "category": "Shopping",
+      "rating": 4.6,
+      "address": "Mall Road, Shimla, Himachal Pradesh",
+      "hours": "10:00 AM - 9:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to June - best shopping experience",
+        "currency": "Indian Rupee (INR) - most shops accept cards",
+        "language": "Hindi and English widely spoken",
+        "transportation": "Walking distance from The Ridge, no vehicles allowed",
+        "accommodation": "Several hotels and guesthouses nearby"
+      }
+    },
+    {
+      "id": "shimla-christ-church",
+      "name": "Christ Church",
+      "description": "Christ Church is the second oldest church in North India, known for its neo-Gothic architecture and beautiful stained glass windows.",
+      "image": "/images/locations/shimla-christ-church.jpg",
+      "category": "Religious",
+      "rating": 4.5,
+      "address": "The Ridge, Shimla, Himachal Pradesh",
+      "hours": "8:00 AM - 6:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "Year-round, but especially beautiful during Christmas",
+        "currency": "Indian Rupee (INR) - free entry",
+        "language": "English services available",
+        "transportation": "Walking distance from The Ridge",
+        "accommodation": "Multiple options available in the area"
+      }
+    },
+    {
+      "id": "shimla-jakhu-temple",
+      "name": "Jakhu Temple",
+      "description": "Jakhu Temple is an ancient temple dedicated to Lord Hanuman, located at the highest point in Shimla. It offers breathtaking views of the surrounding mountains.",
+      "image": "/images/locations/shimla-jakhu-temple.jpg",
+      "category": "Temple",
+      "rating": 4.8,
+      "address": "Jakhu Hill, Shimla, Himachal Pradesh",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "Early morning for sunrise views and fewer crowds",
+        "currency": "Indian Rupee (INR) - free entry",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Trekking path available, can also take a taxi",
+        "accommodation": "Stay in Shimla town and visit as a day trip"
+      }
+    },
+    {
+      "id": "shimla-kufri",
+      "name": "Kufri",
+      "description": "Kufri is a small hill station near Shimla, known for its skiing slopes and panoramic views of the Himalayas. It's a popular destination for adventure activities.",
+      "image": "/images/locations/shimla-kufri.jpg",
+      "category": "Adventure",
+      "rating": 4.4,
+      "address": "Kufri, Shimla District, Himachal Pradesh",
+      "hours": "9:00 AM - 5:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "December to February for snow activities, March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for activities",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Shimla",
+        "accommodation": "Limited options in Kufri, better to stay in Shimla"
+      }
+    }
+  ]
+}

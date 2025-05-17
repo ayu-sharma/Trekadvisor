@@ -1,0 +1,98 @@
+{
+  "name": "Kangra",
+  "description": "Kangra is one of the most picturesque districts in Himachal Pradesh, known for its ancient temples, tea gardens, and the famous Kangra Fort. The district offers a perfect blend of history, spirituality, and natural beauty.",
+  "coverImage": "/images/districts/kangra-cover.jpg",
+  "summary": "Land of Ancient Temples and Tea Gardens",
+  "locations": [
+    {
+      "id": "kangra-fort",
+      "name": "Kangra Fort",
+      "description": "Kangra Fort is one of the oldest and largest forts in the Himalayas, dating back to the 4th century BC. It offers panoramic views of the surrounding valleys and mountains.",
+      "image": "/images/locations/kangra-fort.jpg",
+      "category": "Historical",
+      "rating": 4.6,
+      "address": "Kangra Fort Road, Kangra, Himachal Pradesh",
+      "hours": "9:00 AM - 5:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to March for pleasant weather",
+        "currency": "Indian Rupee (INR) - entry fee applicable",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Dharamshala",
+        "accommodation": "Multiple options available in Kangra town"
+      }
+    },
+    {
+      "id": "kangra-masroor",
+      "name": "Masroor Rock Cut Temple",
+      "description": "Masroor Rock Cut Temple is a unique monolithic rock-cut temple complex dating back to the 8th century. It's known for its intricate carvings and architectural beauty.",
+      "image": "/images/locations/kangra-masroor.jpg",
+      "category": "Temple",
+      "rating": 4.5,
+      "address": "Masroor, Kangra District",
+      "hours": "8:00 AM - 6:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to March for comfortable weather",
+        "currency": "Indian Rupee (INR) - entry fee applicable",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Kangra",
+        "accommodation": "Stay in Kangra or Dharamshala"
+      }
+    },
+    {
+      "id": "kangra-palampur",
+      "name": "Palampur",
+      "description": "Palampur is a beautiful hill station known for its tea gardens and scenic views of the Dhauladhar range. It's a perfect destination for nature lovers and adventure enthusiasts.",
+      "image": "/images/locations/kangra-palampur.jpg",
+      "category": "Hill Station",
+      "rating": 4.7,
+      "address": "Palampur, Kangra District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and English widely spoken",
+        "transportation": "Regular buses from Delhi and Chandigarh",
+        "accommodation": "Wide range of hotels and homestays available"
+      }
+    },
+    {
+      "id": "kangra-baijnath",
+      "name": "Baijnath Temple",
+      "description": "Baijnath Temple is an ancient temple dedicated to Lord Shiva, known for its architectural beauty and spiritual significance. The temple is surrounded by the Dhauladhar range.",
+      "image": "/images/locations/kangra-baijnath.jpg",
+      "category": "Temple",
+      "rating": 4.4,
+      "address": "Baijnath, Kangra District",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to March for pleasant weather",
+        "currency": "Indian Rupee (INR) - free entry",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Regular buses and taxis from Palampur",
+        "accommodation": "Stay in Palampur or nearby towns"
+      }
+    },
+    {
+      "id": "kangra-andretta",
+      "name": "Andretta",
+      "description": "Andretta is an artists' village known for its pottery and theater. It was home to famous artists like Norah Richards and Sobha Singh.",
+      "image": "/images/locations/kangra-andretta.jpg",
+      "category": "Cultural",
+      "rating": 4.3,
+      "address": "Andretta, Kangra District",
+      "hours": "Best time to visit: October to March",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to March for comfortable weather",
+        "currency": "Indian Rupee (INR) - carry cash for local purchases",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Palampur",
+        "accommodation": "Limited options available, better to stay in Palampur"
+      }
+    }
+  ]
+} 

@@ -1,0 +1,98 @@
+{
+  "name": "Mandi",
+  "description": "Mandi is known as the 'Varanasi of Hills' due to its numerous ancient temples. The district is famous for its cultural heritage, scenic beauty, and the International Mandi Shivratri Fair.",
+  "coverImage": "/images/districts/mandi-cover.jpg",
+  "summary": "The Varanasi of Hills",
+  "locations": [
+    {
+      "id": "mandi-rewalsar",
+      "name": "Rewalsar Lake",
+      "description": "Rewalsar Lake is a sacred lake surrounded by Buddhist, Hindu, and Sikh shrines. It's known for its spiritual significance and natural beauty.",
+      "image": "/images/locations/mandi-rewalsar.jpg",
+      "category": "Religious",
+      "rating": 4.6,
+      "address": "Rewalsar, Mandi District",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June and September to November",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Regular buses and taxis from Mandi",
+        "accommodation": "Limited options available in Rewalsar"
+      }
+    },
+    {
+      "id": "mandi-prashar",
+      "name": "Prashar Lake",
+      "description": "Prashar Lake is a high-altitude lake surrounded by snow-capped mountains. It's known for its floating island and ancient temple.",
+      "image": "/images/locations/mandi-prashar.jpg",
+      "category": "Lake",
+      "rating": 4.7,
+      "address": "Prashar, Mandi District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Trekking required, can hire local guides",
+        "accommodation": "Basic guesthouses available, camping possible"
+      }
+    },
+    {
+      "id": "mandi-bhutnath",
+      "name": "Bhutnath Temple",
+      "description": "Bhutnath Temple is one of the oldest temples in Mandi, known for its architectural beauty and religious significance. It's the center of the famous Shivratri fair.",
+      "image": "/images/locations/mandi-bhutnath.jpg",
+      "category": "Temple",
+      "rating": 4.5,
+      "address": "Mandi Town, Mandi District",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "Year-round, especially during Shivratri fair",
+        "currency": "Indian Rupee (INR) - free entry",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Walking distance from Mandi bus stand",
+        "accommodation": "Multiple options available in Mandi town"
+      }
+    },
+    {
+      "id": "mandi-joginder-nagar",
+      "name": "Joginder Nagar",
+      "description": "Joginder Nagar is a scenic town known for its hydroelectric project and beautiful gardens. It offers various adventure activities and nature trails.",
+      "image": "/images/locations/mandi-joginder.jpg",
+      "category": "Hill Station",
+      "rating": 4.4,
+      "address": "Joginder Nagar, Mandi District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Mandi",
+        "accommodation": "Limited options available in town"
+      }
+    },
+    {
+      "id": "mandi-sundernagar",
+      "name": "Sundernagar",
+      "description": "Sundernagar is a beautiful town known for its lake and ancient temples. It's a perfect destination for nature lovers and spiritual seekers.",
+      "image": "/images/locations/mandi-sundernagar.jpg",
+      "category": "Town",
+      "rating": 4.3,
+      "address": "Sundernagar, Mandi District",
+      "hours": "Best time to visit: October to March",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to March for comfortable weather",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Mandi",
+        "accommodation": "Multiple options available in town"
+      }
+    }
+  ]
+} 

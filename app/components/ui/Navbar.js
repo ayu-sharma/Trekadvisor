@@ -1,9 +1,10 @@
 "use client"
 import { useState, useEffect } from 'react';
-import { Menu, X, Search, ChevronDown } from 'lucide-react';
+import { Menu, X, Search, ChevronDown, MapPin, Compass, UserCircle } from 'lucide-react';
 import Button from '../hero/Button';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
     return () => {
       document.body.style.overflow = 'auto';
     };
-  }, [isOpen]);
+  }, []);
 
   const toggleDropdown = (index) => {
     if (activeDropdown === index) {
@@ -54,84 +55,157 @@ const Navbar = () => {
   // Array of navigation links with dropdown content
   const navLinks = [
     { 
-      name: 'Home', 
-      path: '/', 
-      hasDropdown: false,
+      name: 'Destinations', 
+      path: '/destinations', 
+      hasDropdown: true,
+      icon: <MapPin size={18} />,
+      dropdownItems: [
+        { name: 'Shimla', path: '/place?district=shimla' },
+        { name: 'Manali', path: '/place?district=manali' },
+        { name: 'Dharamshala', path: '/place?district=dharamshala' },
+        { name: 'Mandi', path: '/place?district=mandi' },
+        { name: 'Kullu', path: '/place?district=kullu' },
+        { name: 'Spiti Valley', path: '/place?district=spiti' },
+        { name: 'View All Districts', path: '/districts', isBold: true }
+      ]
     },
     { 
       name: 'Hidden Gems', 
       path: '/hidden-gems', 
       hasDropdown: false,
+      icon: <Compass size={18} />
+    },
+    { 
+      name: 'Popular Treks', 
+      path: '/treks', 
+      hasDropdown: false,
+      icon: <Compass size={18} />
+    },
+    { 
+      name: 'About Us', 
+      path: '/about', 
+      hasDropdown: false,
+      icon: <UserCircle size={18} />
     },
   ];
   
   return (
     <div className="relative">
-      <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white py-2' : 'bg-gradient-to-b from-black/40 to-transparent py-4'}`}>
-        <div className="flex justify-between w-full px-4">
-          <nav className="flex items-center justify-between w-full max-w-7xl">
-            {/* Logo with half green and half white text */}
-            <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold">
-                <span className="text-teal-600">Travel</span>
-                <span className={scrolled ? "text-teal-600" : "text-white"}>Ease</span>
+      <header className={`fixed w-full z-50 transition-all duration-300 ${
+        scrolled 
+          ? 'bg-white py-2 shadow-md' 
+          : 'bg-gradient-to-b from-black/70 to-transparent py-4'
+      }`}>
+        <div className="container mx-auto px-4">
+          <nav className="flex items-center justify-between w-full">
+            {/* Logo */}
+            <Link href="/" className="flex items-center z-50">
+              <span className="text-2xl font-bold flex items-center">
+                <span className="mr-2">
+                  <div className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">
+                    T
+                  </div>
+                </span>
+                <span className="text-green-600">Trek</span>
+                <span className={scrolled ? "text-gray-800" : "text-white"}>Advisor</span>
               </span>
             </Link>
             
-            {/* Desktop Navigation with active underline */}
-            <div className="hidden lg:flex items-center space-x-6">
+            {/* Desktop Navigation with dropdown and animations */}
+            <div className="hidden lg:flex items-center space-x-8">
               {navLinks.map((link, index) => (
                 <div key={index} className="relative group">
                   {link.hasDropdown ? (
-                    <Button
-                      onClick={() => toggleDropdown(index)}
-                      variant={scrolled ? "text" : "text"}
-                      className={`flex items-center space-x-1 font-medium transition duration-300 ${
-                        scrolled ? 'text-gray-800 hover:text-teal-600' : 'text-white hover:text-teal-200'
-                      }`}
-                    >
-                      <span>{link.name}</span>
-                      <ChevronDown 
-                        size={16} 
-                        className={`ml-1 transition-transform duration-300 ${activeDropdown === index ? 'rotate-180' : ''}`} 
-                      />
-                    </Button>
+                    <div className="relative">
+                      <button
+                        onClick={() => toggleDropdown(index)}
+                        className={`flex items-center space-x-2 font-medium transition-all duration-300 rounded-full px-4 py-2 ${
+                          scrolled 
+                            ? 'text-gray-800 hover:text-green-600 hover:bg-green-50' 
+                            : 'text-white hover:text-green-400 hover:bg-white/10'
+                        } ${activeDropdown === index ? (scrolled ? 'bg-green-50 text-green-600' : 'bg-white/10 text-green-400') : ''}`}
+                      >
+                        {link.icon && <span className={scrolled ? 'text-green-600' : 'text-green-400'}>{link.icon}</span>}
+                        <span>{link.name}</span>
+                        <ChevronDown 
+                          size={16} 
+                          className={`transition-transform duration-300 ${activeDropdown === index ? 'rotate-180' : ''}`} 
+                        />
+                      </button>
+
+                      {/* Dropdown menu with animation */}
+                      {activeDropdown === index && (
+                        <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl overflow-hidden z-50 animate-fadeIn">
+                          <div className="py-2">
+                            {link.dropdownItems.map((item, i) => (
+                              <Link
+                                key={i}
+                                href={item.path}
+                                className={`block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600 transition-colors duration-200 ${
+                                  item.isBold ? 'font-semibold border-t border-gray-100 mt-1 pt-2 text-green-600' : ''
+                                }`}
+                                onClick={() => setActiveDropdown(null)}
+                              >
+                                {item.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
                   ) : (
                     <Link
                       href={link.path}
-                      className={`flex items-center space-x-1 font-medium transition duration-300 relative 
-                        ${scrolled ? 'text-gray-800 hover:text-teal-600' : 'text-white hover:text-teal-200'}
-                        ${pathname === link.path ? 'after:absolute after:w-full after:h-0.5 after:bg-teal-500 after:bottom-0 after:left-0' : ''}
+                      className={`flex items-center space-x-2 font-medium transition-all duration-300 rounded-full px-4 py-2 group relative
+                        ${
+                          scrolled 
+                            ? 'text-gray-800 hover:text-green-600 hover:bg-green-50' 
+                            : 'text-white hover:text-green-400 hover:bg-white/10'
+                        }
+                        ${pathname === link.path ? (scrolled ? 'bg-green-50 text-green-600' : 'bg-white/10 text-green-400') : ''}
                       `}
                     >
+                      {link.icon && <span className={scrolled ? 'text-green-600' : 'text-green-400'}>{link.icon}</span>}
                       <span>{link.name}</span>
+                      <span className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 h-0.5 bg-green-500 transition-all duration-300 w-0 group-hover:w-1/2 ${
+                        pathname === link.path ? 'w-1/2' : ''
+                      }`}></span>
                     </Link>
                   )}
                 </div>
               ))}
             </div>
             
+            {/* Call to action button */}
+            <div className="hidden lg:block">
+              <button className="bg-green-600 text-white rounded-full px-6 py-2 font-medium hover:bg-green-700 transition-colors shadow-md hover:shadow-lg">
+                Plan Your Trip
+              </button>
+            </div>
+            
             {/* Mobile menu button */}
             <div className="lg:hidden flex items-center space-x-3">
-              <Button
-                variant={scrolled ? "text" : "text"}
+              <button
                 className={`p-2 rounded-full transition duration-300 ${
-                  scrolled ? 'text-gray-700 hover:bg-gray-100' : 'text-white hover:bg-white/20'
+                  scrolled 
+                    ? 'text-gray-700 hover:bg-green-50 hover:text-green-600' 
+                    : 'text-white hover:bg-white/20'
                 }`}
               >
                 <Search size={20} />
-              </Button>
+              </button>
               
-              <Button
+              <button
                 onClick={() => setIsOpen(!isOpen)}
-                variant={scrolled ? "text" : "text"}
-                className={`p-2 rounded-full ${
-                  scrolled ? 'text-gray-700 hover:bg-gray-100' : 'text-white hover:bg-white/20'
+                className={`p-2 rounded-full transition-colors duration-300 ${
+                  scrolled 
+                    ? 'text-gray-700 hover:bg-green-50 hover:text-green-600' 
+                    : 'text-white hover:bg-white/20'
                 }`}
                 aria-label="Toggle menu"
               >
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
-              </Button>
+              </button>
             </div>
           </nav>
         </div>
@@ -150,50 +224,86 @@ const Navbar = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-center p-4 border-b">
-              <span className="text-xl font-bold">
-                <span className="text-teal-600">Travel</span>
-                <span className="text-teal-600">Ease</span>
+              <span className="text-xl font-bold flex items-center">
+                <span className="mr-2">
+                  <div className="w-8 h-8 rounded-full bg-green-600 flex items-center justify-center text-white font-bold">
+                    T
+                  </div>
+                </span>
+                <span className="text-green-600">Trek</span>
+                <span className="text-gray-800">Advisor</span>
               </span>
-              <Button
+              <button
                 onClick={() => setIsOpen(false)}
-                variant="text"
                 className="p-2 text-gray-700 hover:bg-gray-100 rounded-full"
               >
                 <X size={24} />
-              </Button>
+              </button>
             </div>
             <div className="flex flex-col w-full py-3">
               {navLinks.map((link, index) => (
                 <div key={index}>
                   {link.hasDropdown ? (
-                    <Button
-                      onClick={() => toggleDropdown(index)}
-                      variant="text"
-                      className="flex items-center justify-between w-full text-gray-800 hover:text-teal-600 font-medium py-3 px-4 border-b border-gray-100"
-                    >
-                      <div className="flex items-center space-x-2">
-                        <span>{link.name}</span>
-                      </div>
-                      <ChevronDown 
-                        size={16} 
-                        className={`transition-transform duration-300 ${activeDropdown === index ? 'rotate-180' : ''}`} 
-                      />
-                    </Button>
+                    <div>
+                      <button
+                        onClick={() => toggleDropdown(index)}
+                        className="flex items-center justify-between w-full text-gray-800 hover:text-green-600 font-medium py-3 px-4 border-b border-gray-100"
+                      >
+                        <div className="flex items-center space-x-2">
+                          {link.icon && <span className="text-green-500">{link.icon}</span>}
+                          <span>{link.name}</span>
+                        </div>
+                        <ChevronDown 
+                          size={16} 
+                          className={`transition-transform duration-300 ${activeDropdown === index ? 'rotate-180' : ''}`} 
+                        />
+                      </button>
+                      
+                      {activeDropdown === index && (
+                        <div className="bg-gray-50 py-2">
+                          {link.dropdownItems.map((item, i) => (
+                            <Link
+                              key={i}
+                              href={item.path}
+                              className={`block py-2 px-8 text-gray-700 hover:text-green-600 ${
+                                item.isBold ? 'font-semibold border-t border-gray-200 mt-1 pt-2 text-green-600' : ''
+                              }`}
+                              onClick={() => setIsOpen(false)}
+                            >
+                              {item.name}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   ) : (
                     <Link
                       href={link.path}
-                      className={`flex items-center justify-between w-full font-medium py-3 px-4 border-b border-gray-100 relative
-                        ${pathname === link.path ? 'text-teal-600 after:absolute after:w-1 after:h-full after:bg-teal-500 after:left-0 after:top-0' : 'text-gray-800 hover:text-teal-600'}
+                      className={`flex items-center w-full font-medium py-3 px-4 border-b border-gray-100 relative
+                        ${pathname === link.path 
+                          ? 'text-green-600 bg-green-50' 
+                          : 'text-gray-800 hover:text-green-600 hover:bg-green-50'
+                        }
                       `}
                       onClick={() => setIsOpen(false)}
                     >
-                      <div className="flex items-center space-x-2 pl-2">
+                      <div className="flex items-center space-x-2">
+                        {link.icon && <span className="text-green-500">{link.icon}</span>}
                         <span>{link.name}</span>
                       </div>
+                      {pathname === link.path && (
+                        <span className="absolute left-0 top-0 bottom-0 w-1 bg-green-500"></span>
+                      )}
                     </Link>
                   )}
                 </div>
               ))}
+              
+              <div className="mt-6 px-4">
+                <button className="w-full bg-green-600 text-white rounded-lg py-3 font-medium hover:bg-green-700 transition-colors shadow-md">
+                  Plan Your Trip
+                </button>
+              </div>
             </div>
           </div>
         </div>

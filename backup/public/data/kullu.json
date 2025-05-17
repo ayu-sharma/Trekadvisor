@@ -1,0 +1,98 @@
+{
+  "name": "Kullu",
+  "description": "Kullu is a district in Himachal Pradesh known for its scenic beauty, apple orchards, and adventure sports. The valley is famous for its annual Dussehra festival and offers numerous trekking and camping opportunities.",
+  "coverImage": "/images/districts/kullu-cover.jpg",
+  "summary": "Valley of Gods and Adventure",
+  "locations": [
+    {
+      "id": "kullu-manali",
+      "name": "Manali",
+      "description": "Manali is a popular hill station known for its scenic beauty, adventure sports, and vibrant culture. It serves as a gateway to various trekking routes and is famous for its apple orchards.",
+      "image": "/images/locations/kullu-manali.jpg",
+      "category": "Hill Station",
+      "rating": 4.8,
+      "address": "Manali, Kullu District, Himachal Pradesh",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather, December to February for snow activities",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and English widely spoken",
+        "transportation": "Regular buses from Delhi and Chandigarh, local taxis available",
+        "accommodation": "Wide range of hotels, guesthouses, and homestays available"
+      }
+    },
+    {
+      "id": "kullu-solang-valley",
+      "name": "Solang Valley",
+      "description": "Solang Valley is a paradise for adventure enthusiasts, offering activities like skiing, paragliding, and zorbing. The valley is surrounded by snow-capped mountains and offers breathtaking views.",
+      "image": "/images/locations/kullu-solang.jpg",
+      "category": "Adventure",
+      "rating": 4.7,
+      "address": "Solang Valley, Manali, Kullu District",
+      "hours": "9:00 AM - 5:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "December to February for snow sports, March to June for other activities",
+        "currency": "Indian Rupee (INR) - carry cash for adventure activities",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Manali",
+        "accommodation": "Stay in Manali and visit as a day trip"
+      }
+    },
+    {
+      "id": "kullu-hadimba-temple",
+      "name": "Hadimba Temple",
+      "description": "Hadimba Temple is an ancient temple dedicated to Hadimba Devi, built in 1553. The temple is known for its unique architecture and is surrounded by cedar forests.",
+      "image": "/images/locations/kullu-hadimba.jpg",
+      "category": "Temple",
+      "rating": 4.5,
+      "address": "Hadimba Temple Road, Manali, Kullu District",
+      "hours": "8:00 AM - 6:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June and September to November",
+        "currency": "Indian Rupee (INR) - free entry",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Walking distance from Manali Mall Road",
+        "accommodation": "Multiple options available in Manali"
+      }
+    },
+    {
+      "id": "kullu-rohtang-pass",
+      "name": "Rohtang Pass",
+      "description": "Rohtang Pass is a high mountain pass offering stunning views of glaciers and peaks. It's a popular spot for snow activities and photography.",
+      "image": "/images/locations/kullu-rohtang.jpg",
+      "category": "Mountain Pass",
+      "rating": 4.6,
+      "address": "Rohtang Pass, Kullu District",
+      "hours": "6:00 AM - 4:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "May to November (subject to weather conditions)",
+        "currency": "Indian Rupee (INR) - carry cash for activities",
+        "language": "Hindi and English understood",
+        "transportation": "Requires permit, best to book through local tour operators",
+        "accommodation": "Stay in Manali and visit as a day trip"
+      }
+    },
+    {
+      "id": "kullu-naggar-castle",
+      "name": "Naggar Castle",
+      "description": "Naggar Castle is a historical castle that was once the residence of the Kullu kings. It now serves as a heritage hotel and offers panoramic views of the Kullu Valley.",
+      "image": "/images/locations/kullu-naggar.jpg",
+      "category": "Historical",
+      "rating": 4.4,
+      "address": "Naggar, Kullu District",
+      "hours": "9:00 AM - 5:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June and September to November",
+        "currency": "Indian Rupee (INR) - entry fee applicable",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Manali",
+        "accommodation": "Can stay at the castle or in nearby Naggar town"
+      }
+    }
+  ]
+} 

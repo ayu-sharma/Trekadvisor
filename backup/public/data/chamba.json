@@ -1,0 +1,98 @@
+{
+  "name": "Chamba",
+  "description": "Chamba is a historic district known for its ancient temples, palaces, and handicrafts. The district offers a perfect blend of history, culture, and natural beauty with its numerous trekking trails and scenic valleys.",
+  "coverImage": "/images/districts/chamba-cover.jpg",
+  "summary": "Land of Ancient Temples and Handicrafts",
+  "locations": [
+    {
+      "id": "chamba-laxmi-narayan",
+      "name": "Laxmi Narayan Temple",
+      "description": "Laxmi Narayan Temple is one of the oldest and largest temples in Chamba, known for its architectural beauty and religious significance. It's a perfect example of the region's rich cultural heritage.",
+      "image": "/images/locations/chamba-laxmi-narayan.jpg",
+      "category": "Temple",
+      "rating": 4.7,
+      "address": "Chamba Town, Chamba District",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June and September to November",
+        "currency": "Indian Rupee (INR) - free entry",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Walking distance from Chamba bus stand",
+        "accommodation": "Multiple options available in Chamba town"
+      }
+    },
+    {
+      "id": "chamba-khajjiar",
+      "name": "Khajjiar",
+      "description": "Khajjiar is often called the 'Mini Switzerland of India' due to its scenic beauty. It features a beautiful lake surrounded by deodar forests and offers various adventure activities.",
+      "image": "/images/locations/chamba-khajjiar.jpg",
+      "category": "Hill Station",
+      "rating": 4.8,
+      "address": "Khajjiar, Chamba District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Chamba",
+        "accommodation": "Limited options available in Khajjiar"
+      }
+    },
+    {
+      "id": "chamba-chamera",
+      "name": "Chamera Lake",
+      "description": "Chamera Lake is a beautiful reservoir surrounded by mountains. It offers various water sports and is a perfect destination for nature lovers and adventure enthusiasts.",
+      "image": "/images/locations/chamba-chamera.jpg",
+      "category": "Lake",
+      "rating": 4.5,
+      "address": "Chamera, Chamba District",
+      "hours": "9:00 AM - 5:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for water activities",
+        "currency": "Indian Rupee (INR) - carry cash for activities",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Chamba",
+        "accommodation": "Stay in Chamba or nearby towns"
+      }
+    },
+    {
+      "id": "chamba-bharmour",
+      "name": "Bharmour",
+      "description": "Bharmour is an ancient town known for its temples and cultural heritage. It's the starting point for various treks and offers a glimpse into the region's rich history.",
+      "image": "/images/locations/chamba-bharmour.jpg",
+      "category": "Town",
+      "rating": 4.4,
+      "address": "Bharmour, Chamba District",
+      "hours": "Best time to visit: May to October",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "May to October for trekking and sightseeing",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Regular buses and taxis from Chamba",
+        "accommodation": "Basic guesthouses available in town"
+      }
+    },
+    {
+      "id": "chamba-pangi",
+      "name": "Pangi Valley",
+      "description": "Pangi Valley is a remote and beautiful valley known for its pristine beauty and unique culture. It offers various trekking opportunities and is perfect for adventure seekers.",
+      "image": "/images/locations/chamba-pangi.jpg",
+      "category": "Valley",
+      "rating": 4.6,
+      "address": "Pangi Valley, Chamba District",
+      "hours": "Best time to visit: June to September",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "June to September for trekking and sightseeing",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Requires permit, best to book through local tour operators",
+        "accommodation": "Basic guesthouses and homestays available"
+      }
+    }
+  ]
+} 

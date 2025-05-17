@@ -1,0 +1,98 @@
+{
+  "name": "Bilaspur",
+  "description": "Bilaspur is known for its beautiful lake, Gobind Sagar, and the Bhakra Dam. The district offers a perfect blend of water sports, religious sites, and scenic beauty.",
+  "coverImage": "/images/districts/bilaspur-cover.jpg",
+  "summary": "Land of Lakes and Dams",
+  "locations": [
+    {
+      "id": "bilaspur-gobind-sagar",
+      "name": "Gobind Sagar Lake",
+      "description": "Gobind Sagar Lake is a large reservoir created by the Bhakra Dam. It offers various water sports and is surrounded by scenic hills.",
+      "image": "/images/locations/bilaspur-gobind-sagar.jpg",
+      "category": "Lake",
+      "rating": 4.6,
+      "address": "Gobind Sagar, Bilaspur District",
+      "hours": "8:00 AM - 6:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for water activities",
+        "currency": "Indian Rupee (INR) - carry cash for activities",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Bilaspur",
+        "accommodation": "Limited options available near the lake"
+      }
+    },
+    {
+      "id": "bilaspur-bhakra-dam",
+      "name": "Bhakra Dam",
+      "description": "Bhakra Dam is one of the highest gravity dams in India, offering stunning views and educational tours about hydroelectric power generation.",
+      "image": "/images/locations/bilaspur-bhakra.jpg",
+      "category": "Dam",
+      "rating": 4.7,
+      "address": "Bhakra Dam, Bilaspur District",
+      "hours": "9:00 AM - 5:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to March for pleasant weather",
+        "currency": "Indian Rupee (INR) - entry fee applicable",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Bilaspur",
+        "accommodation": "Stay in Bilaspur town"
+      }
+    },
+    {
+      "id": "bilaspur-naina-devi",
+      "name": "Naina Devi Temple",
+      "description": "Naina Devi Temple is a famous temple dedicated to Goddess Naina Devi. It's known for its religious significance and scenic location.",
+      "image": "/images/locations/bilaspur-naina-devi.jpg",
+      "category": "Temple",
+      "rating": 4.5,
+      "address": "Naina Devi, Bilaspur District",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "Year-round, especially during Navratri",
+        "currency": "Indian Rupee (INR) - free entry",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Regular buses and taxis from Bilaspur",
+        "accommodation": "Limited options available near the temple"
+      }
+    },
+    {
+      "id": "bilaspur-kot-dhar",
+      "name": "Kot Dhar",
+      "description": "Kot Dhar is a scenic town known for its ancient fort and beautiful views of the surrounding hills. It's a perfect destination for history enthusiasts.",
+      "image": "/images/locations/bilaspur-kot-dhar.jpg",
+      "category": "Town",
+      "rating": 4.3,
+      "address": "Kot Dhar, Bilaspur District",
+      "hours": "Best time to visit: October to March",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "October to March for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Regular buses and taxis from Bilaspur",
+        "accommodation": "Limited options available in town"
+      }
+    },
+    {
+      "id": "bilaspur-swarghat",
+      "name": "Swarghat",
+      "description": "Swarghat is a beautiful hill station known for its scenic views and peaceful atmosphere. It's a perfect destination for nature lovers.",
+      "image": "/images/locations/bilaspur-swarghat.jpg",
+      "category": "Hill Station",
+      "rating": 4.4,
+      "address": "Swarghat, Bilaspur District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Bilaspur",
+        "accommodation": "Limited options available in town"
+      }
+    }
+  ]
+} 

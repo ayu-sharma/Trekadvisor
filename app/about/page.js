@@ -6,11 +6,7 @@ import Footer from '../components/ui/Footer';
 import Navbar from '../components/ui/Navbar';
 import Hero from '../components/about/Hero';
 import Introduction from '../components/about/Introduction';
-import Timeline from '../components/about/Timeline';
-import TourismDevelopment from '../components/about/TourismDevelopment';
-import TouristDestinations from '../components/about/TouristDestinations';
-import TourismImpact from '../components/about/TourismImpact';
-import FutureOfTourism from '../components/about/FutureOfTourism';
+import Team from '../components/about/Team';
 
 export default function Home() {
   return (
@@ -23,11 +19,7 @@ export default function Home() {
       <Navbar/>
       <Hero />
       <Introduction />
-      <Timeline />
-      <TourismDevelopment />
-      <TouristDestinations />
-      <TourismImpact />
-      <FutureOfTourism />
+      <Team />
       <Footer/>
     </div>
   );

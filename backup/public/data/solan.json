@@ -1,0 +1,109 @@
+{
+  "name": "Solan",
+  "description": "Solan is known as the 'Mushroom City of India' and is famous for its pleasant climate, apple orchards, and tomato cultivation. The district offers a perfect blend of natural beauty, adventure activities, and cultural heritage.",
+  "coverImage": "/images/districts/solan-cover.jpg",
+  "summary": "The Mushroom City of India",
+  "locations": [
+    {
+      "id": "solan-shoolini",
+      "name": "Shoolini Mata Temple",
+      "description": "Ancient temple dedicated to Goddess Shoolini, offering panoramic views of the surrounding hills.",
+      "image": "/images/locations/shoolini.jpg",
+      "category": "Temple",
+      "rating": 4.6,
+      "address": "Solan, Himachal Pradesh",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null
+    },
+    {
+      "id": "solan-kasauli",
+      "name": "Kasauli",
+      "description": "Kasauli is a charming hill station known for its colonial architecture, scenic views, and peaceful atmosphere. It's perfect for nature walks and bird watching.",
+      "image": "/images/locations/solan-kasauli.jpg",
+      "category": "Hill Station",
+      "rating": 4.6,
+      "address": "Kasauli, Solan District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and English widely spoken",
+        "transportation": "Regular buses from Delhi and Chandigarh",
+        "accommodation": "Wide range of hotels and guesthouses available"
+      }
+    },
+    {
+      "id": "solan-chail",
+      "name": "Chail",
+      "description": "Chail is known for having the world's highest cricket ground and a beautiful palace. It offers stunning views of the surrounding mountains and valleys.",
+      "image": "/images/locations/solan-chail.jpg",
+      "category": "Hill Station",
+      "rating": 4.5,
+      "address": "Chail, Solan District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - entry fee for palace",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Solan",
+        "accommodation": "Palace hotel and other options available"
+      }
+    },
+    {
+      "id": "solan-barog",
+      "name": "Barog",
+      "description": "Barog is a small hill station known for its toy train station and scenic beauty. It's a perfect stopover for those traveling on the Kalka-Shimla railway.",
+      "image": "/images/locations/solan-barog.jpg",
+      "category": "Hill Station",
+      "rating": 4.4,
+      "address": "Barog, Solan District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and English understood",
+        "transportation": "Toy train from Kalka or Shimla",
+        "accommodation": "Limited options available, better to stay in nearby towns"
+      }
+    },
+    {
+      "id": "solan-dagshai",
+      "name": "Dagshai",
+      "description": "Dagshai is a historic cantonment town known for its colonial architecture and peaceful environment. It offers beautiful views of the surrounding hills.",
+      "image": "/images/locations/solan-dagshai.jpg",
+      "category": "Town",
+      "rating": 4.3,
+      "address": "Dagshai, Solan District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Solan",
+        "accommodation": "Limited options available in town"
+      }
+    },
+    {
+      "id": "solan-shalaghat",
+      "name": "Shalaghat",
+      "description": "Shalaghat is a beautiful valley known for its apple orchards and scenic beauty. It's a perfect destination for nature lovers and photography enthusiasts.",
+      "image": "/images/locations/solan-shalaghat.jpg",
+      "category": "Valley",
+      "rating": 4.4,
+      "address": "Shalaghat, Solan District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local purchases",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Regular buses and taxis from Solan",
+        "accommodation": "Limited options available, better to stay in Solan"
+      }
+    }
+  ]
+} 

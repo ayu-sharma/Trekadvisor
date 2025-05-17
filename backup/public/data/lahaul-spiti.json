@@ -1,0 +1,98 @@
+{
+  "name": "Lahaul and Spiti",
+  "description": "Lahaul and Spiti is known for its stark landscapes, ancient monasteries, and unique culture. The district offers a perfect blend of adventure, spirituality, and natural beauty, with high-altitude passes and pristine valleys.",
+  "coverImage": "/images/districts/lahaul-spiti-cover.jpg",
+  "summary": "Land of High Passes and Monasteries",
+  "locations": [
+    {
+      "id": "lahaul-spiti-keylong",
+      "name": "Keylong",
+      "description": "Keylong is the district headquarters known for its administrative importance and stunning views of the surrounding mountains. It's a perfect base for exploring Lahaul Valley.",
+      "image": "/images/locations/lahaul-spiti-keylong.jpg",
+      "category": "Town",
+      "rating": 4.5,
+      "address": "Keylong, Lahaul and Spiti District",
+      "hours": "Best time to visit: June to September",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "June to September when Rohtang Pass is open",
+        "currency": "Indian Rupee (INR) - ATMs available",
+        "language": "Hindi, Bhoti, and English understood",
+        "transportation": "Regular buses and taxis from Manali, requires permit",
+        "accommodation": "Multiple options available, book in advance"
+      }
+    },
+    {
+      "id": "lahaul-spiti-kaza",
+      "name": "Kaza",
+      "description": "Kaza is the sub-divisional headquarters of Spiti Valley, known for its ancient monasteries and stunning landscapes. It's a perfect base for exploring Spiti Valley.",
+      "image": "/images/locations/lahaul-spiti-kaza.jpg",
+      "category": "Town",
+      "rating": 4.7,
+      "address": "Kaza, Lahaul and Spiti District",
+      "hours": "Best time to visit: June to September",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "June to September when Kunzum Pass is open",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi, Bhoti, and English understood",
+        "transportation": "Regular buses and taxis from Manali/Shimla, requires permit",
+        "accommodation": "Multiple options available, book in advance"
+      }
+    },
+    {
+      "id": "lahaul-spiti-kibber",
+      "name": "Kibber",
+      "description": "Kibber is one of the highest inhabited villages in the world, known for its stunning views and unique culture. It's a perfect destination for nature lovers and cultural enthusiasts.",
+      "image": "/images/locations/lahaul-spiti-kibber.jpg",
+      "category": "Village",
+      "rating": 4.6,
+      "address": "Kibber, Lahaul and Spiti District",
+      "hours": "Best time to visit: June to September",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "June to September for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi, Bhoti, and English understood",
+        "transportation": "Regular buses and taxis from Kaza, requires permit",
+        "accommodation": "Limited options available, book in advance"
+      }
+    },
+    {
+      "id": "lahaul-spiti-tabo",
+      "name": "Tabo Monastery",
+      "description": "Tabo Monastery is one of the oldest and most important monasteries in Spiti Valley, known for its ancient murals and spiritual significance. It's a perfect destination for spiritual seekers and history enthusiasts.",
+      "image": "/images/locations/lahaul-spiti-tabo.jpg",
+      "category": "Monastery",
+      "rating": 4.8,
+      "address": "Tabo, Lahaul and Spiti District",
+      "hours": "6:00 AM - 6:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "June to September when roads are accessible",
+        "currency": "Indian Rupee (INR) - carry cash for donations",
+        "language": "Hindi, Bhoti, and English understood",
+        "transportation": "Regular buses and taxis from Kaza, requires permit",
+        "accommodation": "Limited options available, book in advance"
+      }
+    },
+    {
+      "id": "lahaul-spiti-chandratal",
+      "name": "Chandratal Lake",
+      "description": "Chandratal Lake is a high-altitude lake known for its stunning beauty and crescent moon shape. It's a perfect destination for nature lovers and adventure enthusiasts.",
+      "image": "/images/locations/lahaul-spiti-chandratal.jpg",
+      "category": "Lake",
+      "rating": 4.9,
+      "address": "Chandratal, Lahaul and Spiti District",
+      "hours": "Best time to visit: June to September",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "June to September when roads are accessible",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi, Bhoti, and English understood",
+        "transportation": "4x4 vehicles recommended, requires permit",
+        "accommodation": "Camping available, book in advance"
+      }
+    }
+  ]
+} 

@@ -52,7 +52,7 @@ export default function MilestoneShowcase() {
                 {/* Image side */}
                 <div className="w-full md:w-1/2 h-64 md:h-auto relative">
                   <img
-                    src={item.imageUrl || '/api/placeholder/800/600'}
+                    src={item.imageUrl || '/images/placeholder.svg'}
                     alt={item.imageAlt || `Milestone ${index + 1}`}
                     className="w-full h-full object-cover"
                   />

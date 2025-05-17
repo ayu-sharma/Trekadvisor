@@ -1,0 +1,98 @@
+{
+  "name": "Sirmaur",
+  "description": "Sirmaur is known for its rich cultural heritage, ancient temples, and scenic beauty. The district is famous for its fruit orchards, especially apples, and offers numerous trekking trails and adventure activities.",
+  "coverImage": "/images/districts/sirmaur-cover.jpg",
+  "summary": "Land of Ancient Temples and Fruit Orchards",
+  "locations": [
+    {
+      "id": "sirmaur-nahan",
+      "name": "Nahan",
+      "description": "Nahan is the district headquarters known for its clean streets, colonial architecture, and peaceful atmosphere. It's a perfect base for exploring the surrounding areas.",
+      "image": "/images/locations/sirmaur-nahan.jpg",
+      "category": "Town",
+      "rating": 4.5,
+      "address": "Nahan, Sirmaur District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi and English widely spoken",
+        "transportation": "Regular buses from Delhi and Chandigarh",
+        "accommodation": "Wide range of hotels and guesthouses available"
+      }
+    },
+    {
+      "id": "sirmaur-renuka",
+      "name": "Renuka Lake",
+      "description": "Renuka Lake is the largest natural lake in Himachal Pradesh, surrounded by hills and forests. It's known for its scenic beauty and boating activities.",
+      "image": "/images/locations/sirmaur-renuka.jpg",
+      "category": "Lake",
+      "rating": 4.6,
+      "address": "Renuka, Sirmaur District",
+      "hours": "8:00 AM - 6:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - entry fee applicable",
+        "language": "Hindi and English understood",
+        "transportation": "Regular buses and taxis from Nahan",
+        "accommodation": "Limited options available near the lake"
+      }
+    },
+    {
+      "id": "sirmaur-churdhar",
+      "name": "Churdhar Peak",
+      "description": "Churdhar Peak is the highest peak in the outer Himalayas, offering panoramic views of the surrounding valleys. It's a popular trekking destination.",
+      "image": "/images/locations/sirmaur-churdhar.jpg",
+      "category": "Mountain",
+      "rating": 4.7,
+      "address": "Churdhar, Sirmaur District",
+      "hours": "Best time to visit: April to June, September to November",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "April to June and September to November for trekking",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Trekking required, can hire local guides",
+        "accommodation": "Basic guesthouses available at base camp"
+      }
+    },
+    {
+      "id": "sirmaur-haripurdhar",
+      "name": "Haripurdhar",
+      "description": "Haripurdhar is a scenic town known for its ancient temple and beautiful views of the Himalayas. It's a perfect destination for spiritual seekers and nature lovers.",
+      "image": "/images/locations/sirmaur-haripurdhar.jpg",
+      "category": "Town",
+      "rating": 4.4,
+      "address": "Haripurdhar, Sirmaur District",
+      "hours": "Best time to visit: March to June",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "March to June for pleasant weather",
+        "currency": "Indian Rupee (INR) - carry cash for local expenses",
+        "language": "Hindi and local dialects spoken",
+        "transportation": "Regular buses and taxis from Nahan",
+        "accommodation": "Limited options available in town"
+      }
+    },
+    {
+      "id": "sirmaur-paonta-sahib",
+      "name": "Paonta Sahib",
+      "description": "Paonta Sahib is a historic town known for its Sikh gurdwara and scenic location on the banks of the Yamuna River. It's an important religious and cultural center.",
+      "image": "/images/locations/sirmaur-paonta.jpg",
+      "category": "Religious",
+      "rating": 4.5,
+      "address": "Paonta Sahib, Sirmaur District",
+      "hours": "6:00 AM - 8:00 PM",
+      "phone": null,
+      "travelTips": {
+        "bestTime": "Year-round, especially during religious festivals",
+        "currency": "Indian Rupee (INR) - ATMs available in town",
+        "language": "Hindi, Punjabi, and English understood",
+        "transportation": "Regular buses and taxis from Nahan",
+        "accommodation": "Multiple options available in town"
+      }
+    }
+  ]
+} 
