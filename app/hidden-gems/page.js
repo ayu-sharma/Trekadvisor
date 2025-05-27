@@ -6,6 +6,7 @@ import DestinationCard from '../components/destinations/DestinationCard';
 import DestinationModal from '../components/destinations/DestinationModal';
 import { destinations } from '../constants/destinationdata';
 import Navbar from '../components/ui/Navbar';
+import HiddenGems from '../components/destinations/HiddenGems';
 
 export default function TravelDestinationsPage() {
   const [selectedDestination, setSelectedDestination] = useState(null);
@@ -31,6 +32,9 @@ export default function TravelDestinationsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <Navbar />
+      
+      {/* Hidden Gems Component */}
+      <HiddenGems />
       
       {/* Header Section */}
       <div className="pt-24 pb-12 bg-gradient-to-r from-emerald-50 to-blue-50">

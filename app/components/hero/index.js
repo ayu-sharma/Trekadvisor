@@ -24,9 +24,6 @@ export default function HeroWithTripFocus() {
           <div className="lg:col-span-5">
             <Header />
           </div>
-          <div className="lg:col-span-7">
-            <TripPlanner />
-          </div>
         </div>
 
         {/* Featured Destinations Section */}
