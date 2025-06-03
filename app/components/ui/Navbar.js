@@ -60,32 +60,15 @@ const Navbar = () => {
       hasDropdown: true,
       icon: <MapPin size={18} />,
       dropdownItems: [
-        { name: 'Shimla', path: '/place?district=shimla' },
-        { name: 'Manali', path: '/place?district=manali' },
-        { name: 'Dharamshala', path: '/place?district=dharamshala' },
-        { name: 'Mandi', path: '/place?district=mandi' },
-        { name: 'Kullu', path: '/place?district=kullu' },
-        { name: 'Spiti Valley', path: '/place?district=spiti' },
-        { name: 'View All Districts', path: '/districts', isBold: true }
+        { name: 'Himalayan Treks', path: '/place?district=spiti' },
+        { name: 'Valley of Gods', path: '/place?district=kullu' },
+        { name: 'Queen of Hills', path: '/place?district=shimla' },
+        { name: 'Adventure Capital', path: '/place?district=manali' },
+        { name: 'Tibetan Culture', path: '/place?district=dharamshala' },
+        { name: 'Ancient Temples', path: '/place?district=mandi' },
+        { name: 'Offbeat Trails', path: '/place?district=chamba' },
+        { name: 'Wildlife Sanctuaries', path: '/place?district=solan' },
       ]
-    },
-    { 
-      name: 'Hidden Gems', 
-      path: '/hidden-gems', 
-      hasDropdown: false,
-      icon: <Compass size={18} />
-    },
-    { 
-      name: 'Popular Treks', 
-      path: '/treks', 
-      hasDropdown: false,
-      icon: <Compass size={18} />
-    },
-    { 
-      name: 'About Us', 
-      path: '/about', 
-      hasDropdown: false,
-      icon: <UserCircle size={18} />
     },
   ];
   
@@ -119,7 +102,7 @@ const Navbar = () => {
                     <div className="relative">
                       <button
                         onClick={() => toggleDropdown(index)}
-                        className={`flex items-center space-x-2 font-medium transition-all duration-300 rounded-full px-4 py-2 ${
+                        className={`flex items-center space-x-2 font-medium transition-all duration-300 rounded-full px-4 py-2 cursor-pointer ${
                           scrolled 
                             ? 'text-gray-800 hover:text-green-600 hover:bg-green-50' 
                             : 'text-white hover:text-green-400 hover:bg-white/10'
@@ -174,13 +157,6 @@ const Navbar = () => {
                   )}
                 </div>
               ))}
-            </div>
-            
-            {/* Call to action button */}
-            <div className="hidden lg:block">
-              <button className="bg-green-600 text-white rounded-full px-6 py-2 font-medium hover:bg-green-700 transition-colors shadow-md hover:shadow-lg">
-                Plan Your Trip
-              </button>
             </div>
             
             {/* Mobile menu button */}

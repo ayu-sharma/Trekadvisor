@@ -1,17 +1,20 @@
 import React from 'react';
 import Hero from './components/Hero';
 import Navbar from './components/ui/Navbar';
-import Testimonials from './components/Testimonials';
-import EnquirySection from './components/EnquirySection';
 import Footer from './components/Footer';
+import TrendingLocations from './components/hero/trendingLocations';
+import TrekLocations from './components/hero/trekLocations';
+import HiddenGems from './components/hero/hiddenGems';
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-x-hidden ">
       <Navbar />
       <Hero />
-      <Testimonials />
-      <Footer />
+      <TrendingLocations/>
+      <TrekLocations/>
+      <HiddenGems/>
+      <Footer/>
     </main>
   );
 }
