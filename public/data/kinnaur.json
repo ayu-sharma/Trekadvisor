@@ -1,0 +1,332 @@
+{
+  "tripData": {
+    "place": "Kinnaur",
+    "min_days": 4,
+    "trip_type": "Adventurous",
+    "short_description": "Snowy valleys, rugged terrain, perfect for adventure seekers.",
+    "tags": ["trending", "mountains", "trekking"],
+    "image": "https://images.unsplash.com/photo-1608623297751-fdcff38a8c7d",
+    "is_trending": true,
+    "popular_tags": ["nature", "hiking", "snow"],
+    "how_to_reach": "Take a bus or drive from Shimla via NH5. Closest airport is Shimla.",
+    "long_description": "Kinnaur, nestled in the Himalayas, is a paradise for nature lovers and adventure enthusiasts. From apple orchards to ancient temples and snow-covered peaks, Kinnaur offers a blend of culture, beauty, and thrill."
+  },
+  "carRoutes": [
+    {
+      "from": "Delhi",
+      "distance": "520 km",
+      "time": "12-14 hours"
+    },
+    {
+      "from": "Chandigarh",
+      "distance": "320 km",
+      "time": "8-9 hours"
+    },
+    {
+      "from": "Shimla",
+      "distance": "220 km",
+      "time": "6-7 hours"
+    },
+    {
+      "from": "Manali",
+      "distance": "280 km",
+      "time": "7-8 hours"
+    }
+  ],
+  "busServices": [
+    {
+      "from": "Delhi ISBT",
+      "operator": "HRTC",
+      "route": "Delhi → Shimla → Kinnaur",
+      "time": "14-16 hours",
+      "frequency": "Daily (Evening departure)",
+      "fare": "₹800-1200",
+      "booking": "hrtchp.com or counter booking"
+    },
+    {
+      "from": "Chandigarh ISBT-43",
+      "operator": "HRTC",
+      "route": "Chandigarh → Shimla → Kinnaur",
+      "time": "10-12 hours",
+      "frequency": "Daily (Morning & Evening)",
+      "fare": "₹600-900",
+      "booking": "hrtchp.com or counter booking"
+    },
+    {
+      "from": "Shimla Bus Stand",
+      "operator": "HRTC Local",
+      "route": "Shimla → Kinnaur (Reckong Peo)",
+      "time": "4-5 hours",
+      "frequency": "Multiple daily",
+      "fare": "₹200-350",
+      "booking": "Counter booking only"
+    }
+  ],
+  "trainData": {
+    "Chandigarh": {
+      "from": ["Delhi", "Mumbai", "Kolkata"],
+      "bookingLink": "https://www.irctc.co.in/nget/train-search",
+      "onwardJourney": {
+        "route": "Chandigarh → Shimla → Kinnaur",
+        "distance": "320 km",
+        "time": "8-9 hours",
+        "options": [
+          {
+            "type": "HRTC Bus",
+            "frequency": "Multiple daily",
+            "fare": "₹600-900",
+            "booking": "hrtchp.com",
+            "features": ["Comfortable seating", "Regular stops", "Luggage space"]
+          },
+          {
+            "type": "Private Taxi",
+            "fare": "₹4,000-6,000",
+            "duration": "7-8 hours",
+            "booking": "Local taxi stands",
+            "features": ["Door-to-door service", "Flexible timing", "Luggage space"]
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Chandigarh/Kinnaur,+Himachal+Pradesh/"
+      }
+    },
+    "Delhi": {
+      "from": ["Mumbai", "Kolkata", "Bangalore"],
+      "bookingLink": "https://www.irctc.co.in/nget/train-search",
+      "onwardJourney": {
+        "route": "Delhi → Chandigarh → Shimla → Kinnaur",
+        "distance": "520 km",
+        "time": "12-14 hours",
+        "options": [
+          {
+            "type": "HRTC Bus",
+            "frequency": "Multiple daily",
+            "fare": "₹1,200-1,800",
+            "booking": "hrtchp.com",
+            "features": ["Comfortable seating", "Regular stops", "Luggage space"]
+          },
+          {
+            "type": "Private Taxi",
+            "fare": "₹8,000-12,000",
+            "duration": "11-12 hours",
+            "booking": "Local taxi stands",
+            "features": ["Door-to-door service", "Flexible timing", "Luggage space"]
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Delhi/Kinnaur,+Himachal+Pradesh/"
+      }
+    }
+  },
+  "flightData": {
+    "Shimla": {
+      "from": ["Delhi", "Chandigarh"],
+      "bookingLink": "https://www.airindia.in",
+      "onwardJourney": {
+        "route": "Shimla → Kinnaur",
+        "distance": "220 km",
+        "time": "6-7 hours",
+        "options": [
+          {
+            "type": "HRTC Bus",
+            "frequency": "Multiple daily",
+            "fare": "₹400-600",
+            "booking": "hrtchp.com",
+            "features": ["Comfortable seating", "Regular stops", "Luggage space"]
+          },
+          {
+            "type": "Private Taxi",
+            "fare": "₹3,000-4,500",
+            "duration": "5-6 hours",
+            "booking": "Local taxi stands",
+            "features": ["Door-to-door service", "Flexible timing", "Luggage space"]
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Shimla/Kinnaur,+Himachal+Pradesh/"
+      }
+    },
+    "Chandigarh": {
+      "from": ["Delhi", "Mumbai", "Bangalore"],
+      "bookingLink": "https://www.airindia.in",
+      "onwardJourney": {
+        "route": "Chandigarh → Shimla → Kinnaur",
+        "distance": "320 km",
+        "time": "8-9 hours",
+        "options": [
+          {
+            "type": "HRTC Bus",
+            "frequency": "Multiple daily",
+            "fare": "₹600-900",
+            "booking": "hrtchp.com",
+            "features": ["Comfortable seating", "Regular stops", "Luggage space"]
+          },
+          {
+            "type": "Private Taxi",
+            "fare": "₹4,000-6,000",
+            "duration": "7-8 hours",
+            "booking": "Local taxi stands",
+            "features": ["Door-to-door service", "Flexible timing", "Luggage space"]
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Chandigarh/Kinnaur,+Himachal+Pradesh/"
+      }
+    }
+  },
+  "busData": {
+    "routes": [
+      {
+        "from": "Delhi",
+        "duration": "12-14 hours",
+        "options": [
+          {
+            "type": "HRTC Bus",
+            "frequency": "Daily",
+            "fare": "₹1,200-1,800",
+            "booking": "hrtchp.com",
+            "features": ["Comfortable seating", "Regular stops", "Luggage space"]
+          },
+          {
+            "type": "Private Bus",
+            "frequency": "Daily",
+            "fare": "₹1,500-2,000",
+            "booking": "Local operators",
+            "features": ["Luxury seating", "Onboard entertainment", "Refreshments"]
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Delhi/Kinnaur,+Himachal+Pradesh/"
+      },
+      {
+        "from": "Chandigarh",
+        "duration": "8-9 hours",
+        "options": [
+          {
+            "type": "HRTC Bus",
+            "frequency": "Multiple daily",
+            "fare": "₹600-900",
+            "booking": "hrtchp.com",
+            "features": ["Comfortable seating", "Regular stops", "Luggage space"]
+          },
+          {
+            "type": "Private Bus",
+            "frequency": "Daily",
+            "fare": "₹800-1,200",
+            "booking": "Local operators",
+            "features": ["Luxury seating", "Onboard entertainment", "Refreshments"]
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Chandigarh/Kinnaur,+Himachal+Pradesh/"
+      }
+    ]
+  },
+  "carData": {
+    "routes": [
+      {
+        "from": "Delhi",
+        "duration": "11-12 hours",
+        "options": [
+          {
+            "type": "Self Drive",
+            "features": ["Flexible timing", "Scenic route", "Multiple stops"],
+            "fare": "Fuel + ₹500-1,000 toll",
+            "duration": "11-12 hours",
+            "booking": "Car rental services"
+          },
+          {
+            "type": "Private Taxi",
+            "features": ["Door-to-door service", "Experienced driver", "Luggage space"],
+            "fare": "₹8,000-12,000",
+            "duration": "11-12 hours",
+            "booking": "Local taxi stands"
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Delhi/Kinnaur,+Himachal+Pradesh/"
+      },
+      {
+        "from": "Chandigarh",
+        "duration": "7-8 hours",
+        "options": [
+          {
+            "type": "Self Drive",
+            "features": ["Flexible timing", "Scenic route", "Multiple stops"],
+            "fare": "Fuel + ₹300-500 toll",
+            "duration": "7-8 hours",
+            "booking": "Car rental services"
+          },
+          {
+            "type": "Private Taxi",
+            "features": ["Door-to-door service", "Experienced driver", "Luggage space"],
+            "fare": "₹4,000-6,000",
+            "duration": "7-8 hours",
+            "booking": "Local taxi stands"
+          }
+        ],
+        "mapLink": "https://www.google.com/maps/dir/Chandigarh/Kinnaur,+Himachal+Pradesh/"
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "icon": "Mountain",
+      "text": "Snow-capped Himalayan peaks",
+      "color": "text-blue-600"
+    },
+    {
+      "icon": "TreePine",
+      "text": "Ancient temples & apple orchards",
+      "color": "text-green-600"
+    },
+    {
+      "icon": "Camera",
+      "text": "Perfect for photography",
+      "color": "text-purple-600"
+    },
+    {
+      "icon": "Users",
+      "text": "Ideal for adventure groups",
+      "color": "text-orange-600"
+    }
+  ],
+  "quickFacts": [
+    {
+      "icon": "Clock",
+      "label": "Duration",
+      "value": "4+ Days"
+    },
+    {
+      "icon": "Thermometer",
+      "label": "Best Time",
+      "value": "Mar-Oct"
+    },
+    {
+      "icon": "Mountain",
+      "label": "Altitude",
+      "value": "2,320m"
+    },
+    {
+      "icon": "Calendar",
+      "label": "Season",
+      "value": "All Year"
+    }
+  ],
+  "importantTips": [
+    "Avoid monsoon season (Jul-Sep) due to landslides",
+    "Carry warm clothes even in summer",
+    "Inner Line Permit required for some areas",
+    "Limited ATMs - carry enough cash"
+  ],
+  "whatToPack": [
+    "Warm Jacket",
+    "Trekking Shoes",
+    "Sunglasses",
+    "Power Bank",
+    "First Aid",
+    "Camera"
+  ],
+  "bestExperience": {
+    "title": "🌟 Best Experience",
+    "description": "Visit during apple harvest season (Sep-Oct) for the most magical experience!",
+    "highlights": [
+      "Perfect weather",
+      "Apple orchards",
+      "Clear mountain views"
+    ]
+  }
+} 
