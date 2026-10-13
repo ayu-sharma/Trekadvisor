@@ -45,7 +45,7 @@ export default function TrendingLocations() {
           </button>
         </div>
       )}
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 p">TRENDING LOCATIONS</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">TRENDING LOCATIONS</h2>
       {/* Carousel Container */}
       <div className="relative">
         {/* Scrollable Row */}

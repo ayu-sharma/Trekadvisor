@@ -15,11 +15,11 @@ const HiddenGems = () => {
           <div className="grid grid-cols-12 grid-rows-2 gap-4 h-[600px] min-w-[1200px]">
             {/* Spiti Valley - Top Left */}
            <div 
-  className="col-span-4 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/20"
+  className="col-span-4 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer"
 >
   {/* Background Image Layer */}
   <div 
-    className="absolute inset-0 transition-transform duration-500 group-hover:scale-110"
+    className="absolute inset-0"
     style={{
       backgroundImage: `url("images/home/pangi.png")`,
       backgroundSize: 'cover',
@@ -46,11 +46,11 @@ const HiddenGems = () => {
 
             {/* Manali - Center Large */}
            <div 
-  className="col-span-4 row-span-2 rounded-2xl overflow-hidden relative group cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/20"
+  className="col-span-4 row-span-2 rounded-2xl overflow-hidden relative group cursor-pointer"
 >
   {/* Background Image Layer */}
   <div 
-    className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.2]"
+    className="absolute inset-0"
     style={{
       backgroundImage: `url("images/home/barot.png")`,
       backgroundSize: 'cover',
@@ -77,11 +77,11 @@ const HiddenGems = () => {
 
             {/* Kasol - Top Right */}
             <div 
-  className="col-span-4 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/20"
+  className="col-span-4 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer"
 >
   {/* Background Image Layer */}
   <div 
-    className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.2]"
+    className="absolute inset-0"
     style={{
       backgroundImage: `url("images/home/kugti.png")`,
       backgroundSize: 'cover',
@@ -108,11 +108,11 @@ const HiddenGems = () => {
 
             {/* Dharamshala - Bottom Left */}
           <div 
-  className="col-span-2 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/20"
+  className="col-span-2 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer"
 >
   {/* Background Image Layer */}
   <div 
-    className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.2]"
+    className="absolute inset-0"
     style={{
       backgroundImage: `url("images/home/churah.png")`,
       backgroundSize: 'cover',
@@ -139,11 +139,11 @@ const HiddenGems = () => {
 
             {/* Kinnaur - Bottom Center Left */}
            <div 
-  className="col-span-2 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/20"
+  className="col-span-2 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer"
 >
   {/* Background Image Layer */}
   <div 
-    className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.2]"
+    className="absolute inset-0"
     style={{
       backgroundImage: `url("images/home/bathu.png")`,
       backgroundSize: 'cover',
@@ -170,11 +170,11 @@ const HiddenGems = () => {
 
             {/* Malana - Bottom Right */}
            <div 
-  className="col-span-4 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-teal-500/20"
+  className="col-span-4 row-span-1 rounded-2xl overflow-hidden relative group cursor-pointer"
 >
   {/* Background Image Layer */}
   <div 
-    className="absolute inset-0 transition-transform duration-500 group-hover:scale-[1.2]"
+    className="absolute inset-0"
     style={{
       backgroundImage: `url("images/home/rancer.png")`,
       backgroundSize: 'cover',
