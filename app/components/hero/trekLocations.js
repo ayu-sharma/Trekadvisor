@@ -42,13 +42,13 @@ export default function TrekLocations() {
           <ChevronRight size={28} />
         </button>
         </div>
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 px-12">TREK LOCATIONS</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">TREK LOCATIONS</h2>
       {/* Carousel Container */}
       <div className="relative ">
         {/* Scrollable Row */}
         <div
           ref={scrollRef}
-          className="flex gap-4 overflow-x-auto py-2 pr-28 hide-scrollbar"
+          className="flex items-stretch gap-4 overflow-x-auto py-2 pr-28 hide-scrollbar"
           style={{            
             scrollBehavior: 'smooth',
             scrollSnapType: 'x mandatory',
